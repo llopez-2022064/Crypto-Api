@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RequiredArgsConstructor
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://cryptopweb.netlify.app")
 @RequestMapping("/api/v1/crypto")
 public class CryptoController {
 
